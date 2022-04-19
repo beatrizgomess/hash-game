@@ -9,8 +9,13 @@ Scanner scan = new Scanner(System.in);
     int coluna;
     char sinal;
     boolean ganhou;
-    char[][] tabuleiro = new char[3][3];
+    char[][] tabuleiro;
 
+    //Construtor
+
+    public HashGame(){
+        tabuleiro = new char[3][3];
+    }
 
     void desenharTabuleiro(){
         for (int i = 0; i < tabuleiro.length; i++) {
