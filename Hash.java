@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Hash {
     public static void main(String[] args) {
-        //String peca1 = JOptionPane.showInputDialog("X").toUpperCase(Locale.ROOT);
+
         Scanner scan = new Scanner(System.in);
         char[][] tabuleiro = new char[3][3];
         boolean ganhou = false;
